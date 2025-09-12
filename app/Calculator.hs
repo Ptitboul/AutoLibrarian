@@ -88,6 +88,11 @@ prettyType (name, amount)
   | otherwise   = name ++ "^" ++ prettyNumber amount
 
 
+
+
+typeInvert :: (String, Rational) -> (String, Rational)
+typeInvert (s, n) = (s, -n)
+
 prettyTypes :: TypeSignature -> String
 prettyTypes t = if unders == "" then overs else overs ++ "/" ++ unders where
   overDims = filter (\l -> snd l > 0) t
@@ -95,7 +100,7 @@ prettyTypes t = if unders == "" then overs else overs ++ "/" ++ unders where
   underDims = filter (\l -> snd l < 0) t
 
   overs = L.intercalate "*" (map prettyType overDims)
-  unders = L.intercalate "*" (map prettyType underDims)
+  unders = L.intercalate "*" (map (prettyType . typeInvert) underDims)
 
 calculate :: String -> Either String Value
 calculate s = do
@@ -394,6 +399,7 @@ defaultUnits = [
   ("shillings",  Value 12         [("penny", 1)]),
   ("Shillings",  Value 12         [("penny", 1)]),
   ("libra",    Value 240        [("penny", 1)]),
+  ("Libra",    Value 240        [("penny", 1)]),
   ("pi",       Value (toRational pi)         []),
   ("g",        Value 1          [("gram", 1)]),
   ("gram",     Value 1          [("gram", 1)]),
