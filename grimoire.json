@@ -3062,7 +3062,7 @@
 "tags":[],
 "text":"Commands an airy spirit associated with the elemental\nform of Aquam to serve the magus for Moon duration.\nIf the spell penetrates the spirit's Magic Resistance,\nmake a stress roll of Com + Leadership to judge how\nfully-controlled the spirit is.\n(Base: 5, +2 Voice, +3 Moon)",
 "source":["Through the Aegis",105]},
-{"name":"PARTING OF THE WAVES",
+{"name":"PARTING THE WAVES",
 "typeSig":
 {
 "technique":"Re",
@@ -10162,7 +10162,7 @@
 "tags":[],
 "text":"A ball of flame shoots from your hand to strike a single\ntarget, doing +30 damage.\nMarius of Tremere's version of the spell causes the\nball to make a loud bang when it hits the target. His\nsigil is a gaudiness in his spells.\n(Base 25, +2 Voice; the ball appearing to shoot from\nyour hand is a cosmetic effect)",
 "source":["Ars Magica Fifth Edition",140]},
-{"name":"CIRCLE OF ENCOMPASSING FLAME",
+{"name":"CIRCLE OF ENCOMPASSING FLAMES",
 "typeSig":
 {
 "technique":"Cr",
@@ -15415,7 +15415,7 @@
 "tags":[],
 "text":"When you snap your fingers you instantly awaken the\ntarget from sleep to alert consciousness. Does not\nwork on someone unconscious from Fatigue-level\nloss, wounds, or magic.\n(Base 4, +2 Voice)",
 "source":["Ars Magica Fifth Edition",151]},
-{"name":"CONFUSION OF THE NUMB WILL",
+{"name":"CONFUSION OF THE NUMBED WILL",
 "typeSig":
 {
 "technique":"Re",
@@ -18079,7 +18079,7 @@
 "tags":[],
 "text":"Req: Muto\nEarthen hands from beneath the target rise out of the\nground, and grasp the target's ankles. To break free\nrequires a Strength stress roll of 15+. (One attempt is\nallowed per round, and each requires a Fatigue roll.)\nEach hand can be destroyed by beating its +25 Soak\nroll (hacking weapons do double normal damage) and\ninflicting a Light Wound.\n(Base 3, +2 Voice, +1 Diameter, +1 Part, requisite\nfree)",
 "source":["Ars Magica Fifth Edition",156]},
-{"name":"OMINOUS EVITATION OF THE WEIGHTY STONE",
+{"name":"OMINOUS LEVITATION OF THE WEIGHTY STONE",
 "typeSig":
 {
 "technique":"Re",
