@@ -577,7 +577,7 @@
 "technique":"In",
 "techReq":[],
 "form":"An",
-"formReq":[],
+"formReq":["He"],
 "level":"25",
 "base":"5"
 },
@@ -2369,10 +2369,10 @@
 "base":"3"
 },
 "range":"Touch",
-"duration":"Conc",
+"duration":"Mom",
 "target":"Ind",
 "tags":[],
-"text":"Tells you whether a liquid you hold or touch is\npoisonous, just as a pearl sometimes does. Safer than\nSubtle Taste of Poison and Purity, as you don't have\nto taste the possibly poisonous liquid.\nIn Verdan of Ex Miscellanea's version of the spell,\npoisonous liquids turn a faint green. According to his\nsigil, all his spells involve the color green.\n(Base 3, +1 Touch, +1 Concentration)",
+"text":"Tells you whether a liquid or mixture of liquids you hold or touch is\npoisonous, just as a pearl sometimes does. Safer than\nSubtle Taste of Poison and Purity, as you don't have\nto taste the possibly poisonous liquid.\nIn Verdan of Ex Miscellanea's version of the spell,\npoisonous liquids turn a faint green. According to his\nsigil, all his spells involve the color green.\n(Base 4, +1 Touch)",
 "source":["Ars Magica Fifth Edition",122]},
 {"name":"CALL OF THE RUSHING WATERS",
 "typeSig":
@@ -6196,7 +6196,7 @@
 {"name":"IN CHRIST'S FOOTSTEPS",
 "typeSig":
 {
-"technique":"Pe",
+"technique":"Re",
 "techReq":[],
 "form":"Co",
 "formReq":[],
@@ -11800,7 +11800,7 @@
 "tags":["Ritual"],
 "text":"Req: Mentem\nSimilar to The Shrouded Glen (Ars Magica Fifth\nEdition, page 152), this spell enchants the Boundary in\nwhich the ritual is cast so that anyone moving through\nit is not only subtly diverted, but believes the space\nwithin the Boundary is filled with the image of the\nterrain of the caster's choice, usually identical to the\narea surrounding it. This image affects the senses of\nsight, touch, and hearing.\n(Base 3, +1 Touch, +4 Year, +4 Boundary, +1 Mentem\nReq.)",
 "source":["Dies Irae",69]},
-{"name":"DISCERN IMAGES OF TRUTH AND FALSEHOOD",
+{"name":"DISCERN THE IMAGES OF TRUTH AND FALSEHOOD",
 "typeSig":
 {
 "technique":"In",
@@ -15651,9 +15651,9 @@
 },
 "range":"Touch",
 "duration":"Sun",
-"target":" Structure. The Penetration of the spell should be",
+"target":"Spec",
 "tags":[],
-"text":"noted when cast, as this applies throughout the\nduration.\nThis spell simply deflects casual attention away from\nthe recipient. Unless the recipient calls attention to\nhimself or an observer is actively watchful, people will\npay him no mind. If a character has some reason to be\nalert they are allowed a Per + Awareness roll of 12+ to\nnoticed the recipient. The Blatant Gift reduces the\nEase Factor to 9+. If the magus takes care to be\ninconspicuous this Ease Factor may be increased.\nQuaesitors with effective companions often cast this\nspell on themselves to avoid compromising mundane\ninvestigations with their presence. However, animals\nstill react to the magus as normal.\n(Base 3, +1 Touch, +2 Sun, +3 Spec)",
+"text":"Occasionally a Quaesitor may need to conduct\ninvestigations in mundane society. Inspired by the\nnon- Hermetic Veil all Eyes ritual (see Houses of\nHermes – True Lineages), this spell can be used to aid\navoiding mundane attention. This spell can be cast on\neither the magus himself or an ally; this individual is\nthe recipient. At any point during the spell's duration,\nindividuals enter the influence of this spell by looking\nat the recipient. The spell stops influencing people as\nsoon as they look away. The spell's target is rated at T:Structure. The Penetration of the spell should be noted when cast, as this applies throughout the\nduration.\nThis spell simply deflects casual attention away from\nthe recipient. Unless the recipient calls attention to\nhimself or an observer is actively watchful, people will\npay him no mind. If a character has some reason to be\nalert they are allowed a Per + Awareness roll of 12+ to\nnoticed the recipient. The Blatant Gift reduces the\nEase Factor to 9+. If the magus takes care to be\ninconspicuous this Ease Factor may be increased.\nQuaesitors with effective companions often cast this\nspell on themselves to avoid compromising mundane\ninvestigations with their presence. However, animals\nstill react to the magus as normal.\n(Base 3, +1 Touch, +2 Sun, +3 Spec)",
 "source":["Houses of Hermes – True Lineages",73]},
 {"name":"IMPRISON A GHOST IN A VESSEL",
 "typeSig":
@@ -16886,14 +16886,14 @@
 "techReq":[],
 "form":"Te",
 "formReq":[],
-"level":"25",
+"level":"20",
 "base":"4"
 },
 "range":"Arc",
 "duration":"Mom",
 "target":"Ind",
 "tags":[],
-"text":"The caster holds a piece of stone in her hands and\nreceives a brief mental image of the surroundings of\nthe object that this stone is an Arcane Connection to.\nThis spell could be used to find the statue that a\nfragment came from, or the quarry that the blocks of a\ncastle were chiseled from. If the stone is an Arcane\nConnection to several things, then the newest Arcane\nConnection, or the closest, is revealed.\n(Base 4, + 5 Arc)",
+"text":"The caster holds a piece of stone in her hands and\nreceives a brief mental image of the surroundings of\nthe object that this stone is an Arcane Connection to.\nThis spell could be used to find the statue that a\nfragment came from, or the quarry that the blocks of a\ncastle were chiseled from. If the stone is an Arcane\nConnection to several things, then the newest Arcane\nConnection, or the closest, is revealed.\n(Base 4, + 4 Arcane Connection)",
 "source":["Ancient Magic",36]},
 {"name":"THE WISDOM OF SLEEP",
 "typeSig":
